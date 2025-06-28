@@ -1,0 +1,50 @@
+.minusmain {
+    display: 'flex';
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.bundle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  height: 200px;
+
+}
+
+.bundle2 {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  /* 세로 축도 가운데 정렬 */
+  position: relative;
+}
+
+.people {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.coin-stack {
+  display: flex;
+}
+
+.coin {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: -10px; /* 약 30% 겹치기 */
+  border: 1px solid white;
+}
+
+.coin:first-child {
+  margin-left: 0;
+}
